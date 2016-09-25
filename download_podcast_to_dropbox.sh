@@ -1,10 +1,10 @@
 #!/bin/bash
 # Dropbox Uploader
 
-SAVE_DIR=/home/user/some-dir/
-UPLOAD_DIR=/some-dir-in-your-dropbox/
-DROPBOX_UPLOADER=/path/to/your/dropbox_uploader.sh
-DROPBOX_UPLOADER_CONFIG=/path/to/your/dropbox_uploader.conf
+SAVE_DIR=/autoPodcasts/
+UPLOAD_DIR=/autoPodcasts/
+DROPBOX_UPLOADER=/autoPodcasts/dropbox_uploader.sh
+DROPBOX_UPLOADER_CONFIG=/autoPodcasts/dropbox_uploader.conf
 
 # Urls to monitor
 urls="feed-url1,feed-url2,..."
