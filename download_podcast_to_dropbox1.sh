@@ -7,7 +7,7 @@ DROPBOX_UPLOADER=/Dropbox-Uploader/dropbox_uploader.sh
 DROPBOX_UPLOADER_CONFIG=/home/pi/.dropbox_uploader
 
 # Urls to monitor
-urls="feed-url1,feed-url2,..."
+urls="http://feeds.feedburner.com/freakonomicsradio,http://feed.thisamericanlife.org/talpodcast,"
 
 # Split urls to monitor into an array
 IFS=',' read -r -a urlArr <<< "$urls"
