@@ -3,8 +3,8 @@
 
 SAVE_DIR=/autoPodcasts/
 UPLOAD_DIR=/autoPodcasts/
-DROPBOX_UPLOADER=/autoPodcasts/dropbox_uploader.sh
-DROPBOX_UPLOADER_CONFIG=/autoPodcasts/dropbox_uploader.conf
+DROPBOX_UPLOADER=/Dropbox-Uploader/dropbox_uploader.sh
+DROPBOX_UPLOADER_CONFIG=/home/pi/.dropbox_uploader
 
 # Urls to monitor
 urls="feed-url1,feed-url2,..."
